@@ -30,7 +30,7 @@ void loop() {
 
     //user -> username registered on dlb.one
     //port -> port number, 3 ports available
-    String serverPath = "user_name=user&port=1";  //"{\"hello\":\"world\"}"
+    String serverPath = "user_name=user&port=1";  //"{\"user_name\":\"user\"}"
     
     http.begin(client, serverName.c_str()); 
     http.setTimeout(2000);  
